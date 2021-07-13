@@ -32,6 +32,12 @@ header div {
   margin-top: 5px;
 }
 
+header div h1 {
+  font-size: 15px;
+  margin: 0px;
+  font-weight: 400;
+}
+
 .icon-verified {
   font-size: 20px;
   color: white;
