@@ -41,7 +41,7 @@ main h1 {
 }
 
 .heroe-batman {
-  background-image:url("./image/fondo-batman.png");
+  background-image: url("./image/fondo-batman.png");
   background-repeat: no-repeat;
 
 }
@@ -122,4 +122,24 @@ footer {
 footer p {
   color: #ffffff;
   font-size: 16px;
+}
+
+@media(max-width: 460px){
+  .section-main-1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .carta-heroe{
+    margin: 25px 0px;
+  }
+
+  main h1{
+    margin: 0px;
+  }
+
+  footer{
+    margin-top: 50px;
+  }
 }
