@@ -4,92 +4,103 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <link rel="stylesheet" href="./styles.css">
-  <title>Veterinaria</title>
+  <title>Petshop</title>
 </head>
 <body>
+  <div class="div-1-header">
+    <p>Grandes ofertas en comedores</p>
+    <nav>
+      <ul>
+        <li>
+          <p>Español</p>
+          <i class="material-icons">keyboard_arrow_down</i>
+        </li>
+        <li>
+          <p>ARG$</p>
+          <i class="material-icons">keyboard_arrow_down</i>
+        </li>
+      </ul>
+    </nav>
+  </div>
   <header>
-    <section class="header-1">
-      <div class="header-1-div">Grandes ofertas en comederos</div>
-      <nav class="header-1-nav">
+    <section class="section-2-header">
+      <article>
+        <h1><span>Front</span> Cat&Dog</h1>
+      </article>
+      <article>
+        <i class="material-icons menu">menu</i>
         <ul>
-          <li>Español</li>
-          <li>ARG$</li>
+          <li><i class="material-icons">pets</i>Categorías</li>
+          <li><i class="material-icons">pets</i>Pets</li>
+          <li><i class="material-icons">pets</i>Nosotros</li>
+          <li><i class="material-icons">pets</i>Contactanos</li>
         </ul>
-      </nav>
-    </section>
-    <section class="header-2">
-      <h1><span>Front</span><span class="header-2-h1-white">Cat&Dog</span></h1>
-      <nav>
-        <ul>
-          <li>Categorías</li>
-          <li>Pets</li>
-          <li>Nosotros</li>
-          <li>Contactanos</li>
-        </ul>
-      </nav>
+      </article>
     </section>
   </header>
   <main>
-    <section class="main-section-1">
-      <img src="./image/bowl-and-pet-daities-on-green-background 1.png" alt="Imagen con comida para mascotas">
-      <div>
-        <h2>¡Es un placer tenerte aquí!</h2>
-        <p>¡Comederos en descuesto!</p>
-        <button type="button">COMEDEROS</button>
-      </div>
-    </section>
-    <section class="main-section-2">
-      <img src="./image/patitas.png" alt="Patitas de perro o gato">
-      <h2>Productos Destacados</h2>
-      <ul>
-        <li>Comederos</li>
-        <span>-</span>
-        <li>Accesorios</li>
-        <span>-</span>
-        <li>Comida</li>
-      </ul>
-    </section>
-    <section class="main-section-3">
+    <section class="section-1-main">
       <article>
-        <img src="./image/churrasquito.png" alt="Imagen de juguete de churrasquito">
-        <h3>Juguete Churrasquito</h3>
+        <h2>¡Es un placer tenerte aquí!</h2>
+        <p>¡Comederos en descuento!</p>
+        <a href="#">COMEDEROS</a>
+      </article>
+    </section>
+    <section class="section-2-main">
+      <img src="./image/patitas.png" alt="Pata de perro">
+      <h2>Productos Destacados</h2>
+      <article>
+        <a href="#">Comederos</a>
+        <span>-</span>
+        <a href="#">Accesorios</a>
+        <span>-</span>
+        <a href="#">Comida</a>
+      </article>
+    </section>
+    <section class="section-3-main">
+      <article>
+        <img src="./image/churrasquito.png" alt="Juguete churrasquito">
+        <h4>Juguete Churrasquito</h4>
         <p>$150</p>
       </article>
       <article>
-        <img src="./image/comedero.png" alt="Imagen de juguete de churrasquito">
-        <h3>Comedero para perro</h3>
+        <img src="./image/comedero.png" alt="Comedero para perro">
+        <h4>Comedero para perro</h4>
         <p>$250</p>
       </article>
       <article>
-        <img src="./image/Huesito.png" alt="Imagen de juguete de churrasquito">
-        <h3>Juguete huesito</h3>
+        <img src="./image/Huesito.png" alt="Juguete huesito">
+        <h4>Juguete Huesito</h4>
         <p>$650</p>
       </article>
     </section>
-    <section class="main-section-4">
-      <h2>Contáctanos</h2>
-      <form action="#">
+    <section class="section-4-main">
+      <h3>Contáctanos</h3>
+      <form>
         <input type="text" placeholder="Nombre y Apellido">
         <input type="email" placeholder="Ingresá tu correo electrónico">
-        <input type="text" placeholder="Teléfono">
-        <div>
-          <button class="main-section-4-button-1" type="reset">Resetear</button>
-          <button class="main-section-4-button-2" type="submit">Enviar</button>
-        </div>
+        <input type="number" placeholder="Teléfono">
+        <article>
+          <button type="reset" class="button-reset">Resetear</button>
+          <button type="submit" class="button-submit">Enviar</button>
+        </article>
       </form>
     </section>
   </main>
   <footer>
-    <section class="footer-section-1">
-      <img src="./image/logo-mensaje.png" alt="Logo de mensaje">
-      <p>Suscríbete para más novedad</p>
-      <form action="#">
+    <section class="section-1-footer">
+      <div>
+        <i class="material-icons">forward_to_inbox</i>
+        <h2>Suscríbete para más novedades</h2>
+      </div>
+      <form>
         <input type="email" placeholder="Ingresá tu correo electrónico">
         <button type="submit">Suscribirme</button>
       </form>
     </section>
-    <section class="footer-section-2">
+    <section class="section-2-footer">
       <article>
         <img src="./image/Icono-localidad.png" alt="Icono de localidad">
         <div>
@@ -107,12 +118,12 @@
       <article>
         <img src="./image/Icono-email.png" alt="Icono de email">
         <div>
-          <h3>Correo electrónico</h3>
+          <h3>Correo Electrónico</h3>
           <p>Dirección de correo</p>
         </div>
       </article>
     </section>
-    <section class="footer-section-3">
+    <section class="section-3-footer">
       <p>Todos los derechos reservados Front End</p>
     </section>
   </footer>
