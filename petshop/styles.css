@@ -188,13 +188,16 @@ main .section-4-main form input {
   border: 0px;
   margin-top: 5px;
   margin-bottom: 5px;
-}
-
-main .section-4-main form input::placeholder {
   color: #ffffff;
   padding-left: 14px;
   font-size: 9px;
 }
+
+main .section-4-main form input::placeholder {
+  color: #ffffff;
+  font-size: 9px;
+}
+
 
 main .section-4-main form button {
   border: 0px solid black;
@@ -204,6 +207,7 @@ main .section-4-main form button {
   font-size: 16px;
   margin-top: 40px;
   margin-bottom: 75px;
+  cursor: pointer;
 }
 
 main .section-4-main form .button-reset {
@@ -264,6 +268,7 @@ footer .section-1-footer form button {
   height: 34px;
   margin-left: 5px;
   margin-right: 25px;
+  cursor: pointer;
 }
 
 footer .section-2-footer {

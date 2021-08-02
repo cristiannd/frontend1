@@ -54,6 +54,8 @@ main {
   display: flex;
   flex-direction: column;
   align-items: center;
+  position: relative;
+  height:  350px;
 }
 
 .section-main-1 h2 {
@@ -78,6 +80,7 @@ main {
   font-family: 'Lobster', cursive;
   color: rgb(47, 47, 47);
   font-size: 30px;
+  padding: 10px;
 }
 
 .section-main-1 ul li a:hover {
