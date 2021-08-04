@@ -273,6 +273,124 @@ main .buttons .submit {
   right: 25px;
 }
 
+.añadirPersonaje {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #00669F;
+  margin: 40px 40px;
+  width: 950px;
+  border-radius: 25px;
+  box-shadow: 0px 4px 10px 0px #333333;
+}
+
+.añadirPersonaje h2 {
+  color: #FBFFFD;
+  font-family: Inter;
+  font-size: 40px;
+  font-weight: 700;
+}
+
+.añadirPersonaje p {
+  color: #FBFFFD;
+  font-family: Inter;
+  font-size: 20px;
+}
+
+.añadirPersonaje form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  padding: 15px 125px;
+}
+
+.añadirPersonaje form div {
+  display: flex;
+  margin: 0px 12px;
+  width: 100%;
+}
+
+.añadirPersonaje form div div {
+  display: flex;
+  flex-direction: column;
+}
+
+.añadirPersonaje form div div label {
+  color: #fff;
+  font-family: Inter;
+  font-size: 20px;
+  margin: 20px 0px;
+  width: 100%;
+}
+
+.añadirPersonaje form div div .input-text-date {
+  width: 343px;
+  height: 63px;
+  border-radius: 10px;
+  border: 0px;
+  font-family: Inter;
+  font-size: 20px;
+  padding: 10px
+}
+
+.añadirPersonaje form div div textarea {
+  width: 343px;
+  height: 307px;
+  border-radius: 10px;
+  border: 0px;
+  font-family: Inter;
+  font-size: 20px;
+  padding: 10px;
+  margin-top: 30px;
+}
+
+.añadirPersonaje form div div .select-file {
+  height: 63px;
+  display: flex;
+  justify-content: center;
+  margin: 0px;
+}
+
+.añadirPersonaje form div div .poderes {
+  margin-top: 30px;
+}
+
+.añadirPersonaje form div div .poderes label {
+  display: flex;
+  font-size: 16px;
+  margin: 6px 0px;
+}
+
+.añadirPersonaje form div div hr {
+  width: 95%;
+  margin: 30px auto 0px auto;
+}
+
+.añadirPersonaje form div div .poderes label input {
+  width: 24px;
+  height: 20px;
+  margin-right: 20px;
+  border: 1px solid #c4c4c4;
+}
+
+.añadirPersonaje form button {
+  background-color: #1CD1B0;
+  width: 466px;
+  height: 87px;
+  border-radius: 23px;
+  border: 0px;
+  font-size: 40px;
+  font-weight: bold;
+  margin-top: 45px;
+  cursor: pointer;
+}
+
+.añadirPersonaje form button:hover {
+  background-color: #001D2D;
+  color: #fff;
+}
+
 footer {
   background-color: #00669f;
   padding: 16px;

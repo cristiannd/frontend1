@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="./styles.css">
+  <title>Login</title>
+</head>
+<body>
+  <div class="header-descuento">
+    <p>Descuentos 20% en todos los productos</p>
+  </div>
+  <header>
+    <h1>Nombre Tienda</h1>
+  </header>
+  <main class="login-main">
+    <section class="añadirPersonaje">
+      <h2>Añadí tu super!</h2>
+      <p>Agregá tu personaje favorito completando las opciones</p>
+      <form action="./index.html">
+        <div>
+          <div>
+            <label for="name">Nombre</label>
+            <input type="text" id="name" class="input-text-date">
+            <label for="fecha">Fecha</label>
+            <input type="date" id="fecha" class="input-text-date">
+            <textarea cols="30" rows="10" id="file" placeholder="Descripción"></textarea>
+          </div>
+          <div>
+            <label for="especie">Especie</label>
+            <select id="especie" class="input-text-date">
+              <option value="insecto">Insecto</option>
+              <option value="humano" selected>Humano</option>
+              <option value="volador">Volador</option>
+              <option value="acuatico">Acuático</option>
+            </select>
+            <div>
+              <label for="foto">Agregar Foto</label>
+              <div class="select-file">
+                <input type="file">
+              </div>
+            </div>
+            <div class="poderes">
+              <p>Poderes</p>
+              <label for="volar">
+                <input type="checkbox" value="volar" id="volar">
+                Volar
+              </label>
+              <label for="superInteligencia">
+                <input type="checkbox" value="superInteligencia" id="superInteligencia">
+                SuperInteligencia
+              </label>
+              <label for="vistaRayoLaser">
+                <input type="checkbox" value="vistaRayoLaser" id="vistaRayoLaser">
+                Vista de rayo láser
+              </label>
+              <label for="billeteraGorda">
+                <input type="checkbox" value="billeteraGorda" id="billeteraGorda">
+                Billetera gorda
+              </label>
+            </div>
+            <hr>
+            <div class="poderes">
+              <p>Tipo de personaje</p>
+              <label for="heroe">
+                <input type="radio" id="heroe" name="tipoPersonaje">
+                Héroe / Heroina
+              </label>
+              <label for="villano">
+                <input type="radio" id="villano" name="tipoPersonaje">
+                Villano / Villana
+              </label>
+            </div>
+          </div>
+        </div>
+        <button type="submit">Añadir</button>
+      </form>
+    </section>
+  </main>
+  <footer>
+    <p>Todos los derechos reservados a FRONT END 1</p>
+  </footer>
+</body>
+</html>
