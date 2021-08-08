@@ -83,9 +83,16 @@ main {
   padding: 10px;
 }
 
+.section-main-1 ul li:hover {
+  background-color: rgb(47, 47, 47);
+  transition: background-color 2s, 2s;
+  transform: scale(1.5);
+  border-radius: 20px;
+}
+
 .section-main-1 ul li a:hover {
-  font-size: 40px;
-  color: #000000;
+  color: #fff;
+  transition: color 1s;
 }
 
 footer {

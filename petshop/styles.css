@@ -161,6 +161,21 @@ main .section-3-main {
   margin-top: 25px;
 }
 
+main .section-3-main article {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #FBFAF6;
+}
+
+main .section-3-main article h4 {
+  color: #3C2313;
+}
+
+main .section-3-main article p {
+  color: #F0A83E;
+}
+
 main .section-4-main {
   display: flex;
   flex-direction: column;
